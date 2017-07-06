@@ -50,7 +50,6 @@ public class StackTest {
     }
 
     @Test
-    @Ignore
     public void popMultipleTimes() {
         stack.push(2);
         stack.push(3);

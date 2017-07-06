@@ -1,8 +1,8 @@
 public class Stack {
 
     private int size;
-    private int value;
     private int[] values = new int[10];
+    private int value;
 
     public int size() {
         return size;
