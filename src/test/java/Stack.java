@@ -15,8 +15,7 @@ public class Stack {
     }
 
     public int pop() {
-        size--;
-        return value;
+        return values[--size];
     }
 
     public int peek() {
